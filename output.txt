@@ -1,0 +1,10 @@
+bitcoin-cli getnewaddress "my_legacy" legacy >> output.txt
+bitcoin-cli getnewaddress "my_bech32" bech32 >> output.txt
+bitcoin-cli getnewaddress "my_bech32m" bech32m >> output.txt
+
+output
+
+mt9XL6rgCUy6wAQUq6Y1PkhZwMMf1MqEvu - Legacy
+bcrt1p0lcjpnatvm387fuqq5rtv59qyyrmm8mhh7hctereypcsqqd9y8cqmz8xkm - Bech32
+
+bcrt1p86xuhc2a8hnery0ltzq9l0d6t45t0mavklfdll80g2nwnvuzj0cqfg245j - Bech32m
